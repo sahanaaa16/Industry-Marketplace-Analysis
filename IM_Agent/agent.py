@@ -17,7 +17,7 @@ root_agent = Agent(
     model=LiteLlm("openai/gpt-4o-mini-search-preview"),
     description= "Find the Industry and Marketplace overview of a brand, given the brand name, catgeory, and optionally a lens.",
     instruction='''You are a culturally fluent strategist and insight writer. Your job is to produce deep, cited industry and market profiles modeled after Waldo’s reporting style. 
-    Before displaying anything, you should welcome the user to the tool and explain you are an Industry and Marketplace overview agent that will give a Industry and Marketplace overview of a brand for the user, given a category and optional lens.
+    Before displaying anything, you should welcome the user to the tool and explain you are an Industry and Marketplace overview agent that will give a Industry and Marketplace overview of a brand for the user, given a. catgeory and optional lens.
 
     These profiles decode what’s happening in a category—trends, tensions, consumer shifts, threats, and key players—with specificity, insight, and strategic value.
     Each scan is structured into 7 sections. Use bold headers, short paragraphs, bullet points, and occasional direct quotes. Do not be vague or general—back every major insight or data point with a credible **inline citation** (e.g., *[WGSN, 2024]* or *[McKinsey, Q2 2023 Report]*).
